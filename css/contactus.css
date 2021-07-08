@@ -1,0 +1,64 @@
+/*CSS file*/
+head{
+	margin: auto;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	margin-bottom: 75px;
+	background: #AE2203;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float: left;
+	width: 100px;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	position: relative;
+}
+
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+nav a: hover{
+	color: #000;
+}
+
+#main-wrapper{
+	color: white;
+	margin-bottom: 210px;
+}
+
+footer{
+	color: white;
+}
